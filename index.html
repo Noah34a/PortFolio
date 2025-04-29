@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Noah Lemoing - Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+
+<canvas id="particles"></canvas>
+<div class="background-effect"></div>
+<div class="loader" id="loader"></div>
+
+<header>
+  <nav>
+    <a href="#about">À propos</a>
+    <a href="#skills">Compétences</a>
+    <a href="#projects">Projets</a>
+    <a href="#parcours">Parcours</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="hero">
+    <h1 class="animate-text word-animate">Noah Lemoing</h1>
+    <p id="typing-text" class="fade-in"></p>
+    <div class="btn-hero-group">
+      <a href="#contact" class="btn-hero pulse">Me contacter</a>
+      <a href="cv-noah.pdf" class="btn-hero secondary" download>Télécharger mon CV</a>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section id="about" class="section fade-in">
+    <div class="container">
+      <h2 class="underline">À propos</h2>
+      <p class="intro">
+        Je suis un jeune développeur motivé, créatif et rigoureux, prêt à m'investir dans des projets innovants et à relever de nouveaux défis. J'aime transformer les idées en solutions concrètes à travers le code.
+      </p>
+      <p>🎓 Étudiant en Bachelor Informatique à Ynov Montpellier depuis 2023<br>🎯 Objectif actuel : Trouver un stage B2 en développement web</p>
+    </div>
+  </section>
+
+  <section id="skills" class="section fade-in">
+    <div class="container">
+      <h2 class="underline">Compétences</h2>
+      <div class="skills-grid">
+        <span>💻 HTML / CSS</span>
+        <span>⚙️ JavaScript</span>
+        <span>🐍 Python</span>
+        <span>☕ Java</span>
+        <span>🔧 Git / GitHub</span>
+        <span>🗄️ SQL</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section fade-in">
+    <div class="container">
+      <h2 class="underline">Projets</h2>
+      <div class="projects">
+        <div class="project-card">
+          <h3>Horizon-3D</h3>
+          <p>Site vitrine pour un projet fictif Horizon-3D.</p>
+          <div class="badge">HTML / CSS / JavaScript</div>
+        </div>
+        <div class="project-card">
+          <h3>ECommerceSystem</h3>
+          <p>Plateforme e-commerce en Java avec API REST.</p>
+          <div class="badge">Java / API REST</div>
+        </div>
+        <div class="project-card">
+          <h3>Forum</h3>
+          <p>Forum dynamique en Go avec gestion des utilisateurs et base SQLite.</p>
+          <div class="badge">Go / SQLite / HTML</div>
+        </div>
+        <div class="project-card">
+          <h3>Jeux-Go</h3>
+          <p>Jeu multijoueur en Go avec sockets TCP.</p>
+          <div class="badge">Go / Réseaux</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="parcours" class="section fade-in">
+    <div class="container">
+      <h2 class="underline">Parcours</h2>
+      <div class="parcours-list">
+        <div class="parcours-block">
+          <h3>🎓 Formation</h3>
+          <ul>
+            <li>2024 – 2027 : Bachelor Informatique – Ynov Campus Montpellier</li>
+            <li>2023 – 2024 : Baccalauréat Technologique – Lycée Georges Brassens</li>
+            <li>2019 – 2020 : Brevet – Collège Les Deux Canons</li>
+          </ul>
+        </div>
+        <div class="parcours-block">
+          <h3>👨‍💻 Expérience</h3>
+          <ul>
+            <li>2020 : Stage d’immersion – CLINIFUTUR (Facturation)</li>
+          </ul>
+        </div>
+        <div class="parcours-block">
+          <h3>🧠 Compétences et qualités</h3>
+          <ul>
+            <li>Organisation, communication, adaptabilité, rigueur</li>
+            <li>Langues : Français (natif), Anglais (niveau B1/B2)</li>
+          </ul>
+        </div>
+        <div class="parcours-block">
+          <h3>🚗 Autres</h3>
+          <ul>
+            <li>Permis B</li>
+            <li>Centres d’intérêt : Salle de sport, football, automobile</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section fade-in">
+    <div class="container">
+      <h2 class="underline">Contact</h2>
+      <p class="intro">Tu veux collaborer, me proposer un stage ou simplement discuter ?</p>
+      <div class="contact-links">
+        <a href="mailto:noah.lemoing@ynov.com">📧 Email</a>
+        <a href="https://github.com/Noah34a" target="_blank">🐙 GitHub</a>
+        <a href="https://www.linkedin.com/in/noah-lemoing-43a7b4354/" target="_blank">🔗 LinkedIn</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2025 Noah Lemoing</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
